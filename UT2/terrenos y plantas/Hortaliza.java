@@ -19,8 +19,12 @@ public class Hortaliza extends Planta {
 
     @Override
     protected int consumoDiarioAgua() {
-        return 2;
+        return 1;
     }
+
+    @Override
+    protected int crecimientoDiario() { return 3; }
+
     @Override
     public String tipo() {
         return "Hortaliza";

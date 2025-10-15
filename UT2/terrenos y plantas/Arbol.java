@@ -19,8 +19,11 @@ public class Arbol extends Planta {
 
     @Override
     protected int consumoDiarioAgua() {
-        return 5;
+        return 3;
     }
+
+    @Override
+    protected int crecimientoDiario() { return 1; }
 
     @Override
     public String tipo() {

@@ -3,7 +3,7 @@ package exercises.plantas;
 public class Terreno {
     private Vegetal planta;
 
-    void sembrar(Vegetal v) {
+    public void sembrar(Vegetal v) {
         this.planta = v;
         System.out.println("Se ha sembrado una planta de tipo: " + v.tipo());
     }
