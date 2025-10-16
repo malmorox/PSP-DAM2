@@ -1,4 +1,4 @@
-package exercises;
+package exercises.contador;
 
 import java.util.ArrayList;
 

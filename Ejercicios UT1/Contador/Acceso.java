@@ -1,4 +1,4 @@
-package exercises;
+package exercises.contador;
 
 public class Acceso {
     private String nombreHilo;

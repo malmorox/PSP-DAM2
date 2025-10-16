@@ -1,4 +1,4 @@
-package exercises;
+package exercises.contador;
 
 public class HiloContador extends Thread {
     Contador contador;

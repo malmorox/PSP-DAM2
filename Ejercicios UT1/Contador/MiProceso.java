@@ -1,4 +1,4 @@
-package exercises;
+package exercises.contador;
 
 public class MiProceso implements Runnable {
     private String nombre;

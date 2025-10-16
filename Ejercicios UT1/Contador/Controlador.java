@@ -1,4 +1,4 @@
-package exercises;
+package exercises.contador;
 
 public class Controlador {
     public static void main(String[] args) {

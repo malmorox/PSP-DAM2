@@ -1,4 +1,4 @@
-package exercises;
+package exercises.simulacion;
 
 public class SimuladorProcesos {
     public static void main(String[] args) {

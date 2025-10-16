@@ -1,4 +1,4 @@
-package exercises;
+package exercises.simulacion;
 
 public class ProcesoSimulado implements Runnable {
     private String nombre;
