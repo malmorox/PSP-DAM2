@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Terrenos y plantas" isTestSource="false" packagePrefix="exercises.plantas" />
       <sourceFolder url="file://$MODULE_DIR$/Calendario" isTestSource="false" packagePrefix="exercises.calendario" />
+      <sourceFolder url="file://$MODULE_DIR$/Productor-Consumidor" isTestSource="false" packagePrefix="exercises.fabrica" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
