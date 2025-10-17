@@ -9,9 +9,9 @@ public class Main {
         List<Terreno> terrenos = new ArrayList<>();
 
         Terreno t1 = new Terreno();
-        t1.sembrar(new Hortaliza("Zanahoria"));
-
         Terreno t2 = new Terreno();
+
+        t1.sembrar(new Hortaliza("Zanahoria"));
         t2.sembrar(new Arbol("Roble"));
 
         terrenos.add(t1);
