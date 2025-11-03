@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Terrenos y plantas" isTestSource="false" packagePrefix="exercises.plantas" />
       <sourceFolder url="file://$MODULE_DIR$/Calendario" isTestSource="false" packagePrefix="exercises.calendario" />
       <sourceFolder url="file://$MODULE_DIR$/Productor-Consumidor" isTestSource="false" packagePrefix="exercises.fabrica" />
-      <sourceFolder url="file://$MODULE_DIR$/Coches y matrículas" isTestSource="false" packagePrefix="exercises.coches" />
+      <sourceFolder url="file://$MODULE_DIR$/Parking" isTestSource="false" packagePrefix="exercises.parking" />
       <sourceFolder url="file://$MODULE_DIR$/Emisor y receptor" isTestSource="false" packagePrefix="exercises.mensajes" />
     </content>
     <orderEntry type="inheritedJdk" />
