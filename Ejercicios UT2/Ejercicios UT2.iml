@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Productor-Consumidor" isTestSource="false" packagePrefix="exercises.fabrica" />
       <sourceFolder url="file://$MODULE_DIR$/Parking" isTestSource="false" packagePrefix="exercises.parking" />
       <sourceFolder url="file://$MODULE_DIR$/Emisor y receptor" isTestSource="false" packagePrefix="exercises.mensajes" />
+      <sourceFolder url="file://$MODULE_DIR$/Taller mecánico" isTestSource="false" packagePrefix="exercises.taller" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
