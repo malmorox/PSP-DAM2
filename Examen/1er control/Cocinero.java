@@ -1,4 +1,4 @@
-package control1.marcos.almorox;
+package exercises.examen1;
 
 import java.util.concurrent.BlockingQueue;
 

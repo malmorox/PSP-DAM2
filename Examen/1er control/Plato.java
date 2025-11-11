@@ -1,4 +1,4 @@
-package control1.marcos.almorox;
+package exercises.examen1;
 
 public class Plato {
     private String nombre;
