@@ -10,7 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Emisor y receptor" isTestSource="false" packagePrefix="exercises.mensajes" />
       <sourceFolder url="file://$MODULE_DIR$/Taller mecánico" isTestSource="false" packagePrefix="exercises.taller" />
       <sourceFolder url="file://$MODULE_DIR$/Taller mecánico 2" isTestSource="false" packagePrefix="exercises.taller2" />
-      <sourceFolder url="file://$MODULE_DIR$/Examen" isTestSource="false" packagePrefix="control1.marcos.almorox" />
+      <sourceFolder url="file://$MODULE_DIR$/Barbero durmiente" isTestSource="false" packagePrefix="exercises.barberia" />
+      <sourceFolder url="file://$MODULE_DIR$/Montaña Rusa" isTestSource="false" packagePrefix="exercises.montanarusa" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
