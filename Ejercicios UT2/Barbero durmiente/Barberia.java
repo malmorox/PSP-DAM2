@@ -1,7 +1,5 @@
 package exercises.barberia;
 
-import exercises.montanarusa.Grupo;
-
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
