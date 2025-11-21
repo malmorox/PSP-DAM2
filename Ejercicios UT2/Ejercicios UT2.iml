@@ -12,6 +12,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Taller mecánico 2" isTestSource="false" packagePrefix="exercises.taller2" />
       <sourceFolder url="file://$MODULE_DIR$/Barbero durmiente" isTestSource="false" packagePrefix="exercises.barberia" />
       <sourceFolder url="file://$MODULE_DIR$/Montaña Rusa" isTestSource="false" packagePrefix="exercises.montanarusa" />
+      <sourceFolder url="file://$MODULE_DIR$/Monitores" isTestSource="false" packagePrefix="exercises.monitor" />
+      <sourceFolder url="file://$MODULE_DIR$/Monitor Restaurante" isTestSource="false" packagePrefix="exercises.restaurante" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
