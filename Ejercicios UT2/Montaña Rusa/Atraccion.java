@@ -5,9 +5,9 @@ public class Atraccion {
         MonitorMontanaRusa monitor = new MonitorMontanaRusa();
 
         Thread generador = new Thread(new GeneradorGrupos(monitor), "Generador de grupos");
-        Thread montañaRusa = new Thread(new MontanaRusa(monitor), "Montaña rusa");
+        Thread montanaRusa = new Thread(new MontanaRusa(monitor), "Montaña rusa");
 
         generador.start();
-        montañaRusa.start();
+        montanaRusa.start();
     }
 }

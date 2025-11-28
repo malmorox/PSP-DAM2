@@ -14,8 +14,9 @@ public class GeneradorGrupos implements Runnable {
     public void run() {
         try {
             while (true) {
-                int numPersonasGrupo = 1 + random.nextInt(10);
+                int numPersonasGrupo;
                 boolean discapacidad = random.nextBoolean();
+                numPersonasGrupo = discapacidad ? 1 + random.nextInt(10) : 1 + random.nextInt(4);
 
                 Grupo grupo = new Grupo(numPersonasGrupo, discapacidad);
                 monitor.llegarGrupo(grupo);
