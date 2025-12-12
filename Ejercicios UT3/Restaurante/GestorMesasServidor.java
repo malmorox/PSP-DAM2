@@ -20,6 +20,7 @@ public class GestorMesasServidor {
 
                 Runnable comanderoCamarero = new ComanderoCamarero(clienteSocket, gestorMesas);
                 Thread hiloCamarero = new Thread(comanderoCamarero);
+                hiloCamarero.start();
             }
         } catch (Exception e) {
 

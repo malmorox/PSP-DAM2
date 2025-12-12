@@ -8,8 +8,8 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-public class Cliente {
-    private static final String IP_SERVIDOR = "192.168.20.99";
+public class ClienteChat {
+    private static final String IP_SERVIDOR = "localhost";
     private static final int PUERTO = 12345;
 
     public static void main(String[] args) {

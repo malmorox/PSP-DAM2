@@ -21,14 +21,13 @@ public class ComanderoCamarero implements Runnable {
                 BufferedReader entrada = new BufferedReader(new InputStreamReader(clienteSocket.getInputStream()));
 
                 PrintWriter salida = new PrintWriter(clienteSocket.getOutputStream(), true)
-                Socket socket = clienteSocket;
         ) {
             String ordenCliente;
 
             while ((ordenCliente = entrada.readLine()) != null) {
                 System.out.println("Recibido " + ordenCliente);
                 String respuesta = procesarOrden(ordenCliente);
-
+                salida.println(respuesta);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -61,7 +60,7 @@ public class ComanderoCamarero implements Runnable {
                     System.err.println("Parametro invalido");
                 }
             default:
-
+                return "ERROR;COMANDO DESCONOCIDO";
         }
     }
 }

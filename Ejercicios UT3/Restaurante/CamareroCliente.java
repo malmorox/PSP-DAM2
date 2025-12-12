@@ -22,7 +22,7 @@ public class CamareroCliente {
                 Scanner sc = new Scanner(System.in)
         ) {
             boolean ejecutando = true;
-            while (true) {
+            while (ejecutando) {
                 mostrarMenu();
                 if (!sc.hasNextInt()) {
                     System.err.println("Entrada invalida");
@@ -31,6 +31,7 @@ public class CamareroCliente {
                 }
 
                 int opcion = sc.nextInt();
+                sc.nextLine();
                 String ordenEnvio = "";
 
                 switch (opcion) {
@@ -43,6 +44,7 @@ public class CamareroCliente {
                         System.out.println("Que mesa se levanta?");
                         int numeroMesa = sc.nextInt();
                         ordenEnvio = "LEVANTAR;" + numeroMesa;
+                        break;
                     case 3:
                         ejecutando = false;
                         break;
@@ -66,10 +68,28 @@ public class CamareroCliente {
 
     public static void mostrarMenu() {
         System.out.println("---- Sistema Camarero ----");
-        System.out.println("1. ");
-        System.out.println("2. ");
+        System.out.println("1. Sentar comensales");
+        System.out.println("2. Levantar mesa");
         System.out.println("3. Salir");
+        System.out.print("Seleccione opcion: ");
     }
 
-    private String procesarRespuesta(String respuestaServidor) {}
+    private static void procesarRespuesta(String respuestaServidor) { // ¡FALTABA IMPLEMENTAR!
+        if (respuestaServidor == null) {
+            System.err.println("No se recibió respuesta del servidor");
+            return;
+        }
+
+        String[] partes = respuestaServidor.split(";");
+        String estado = partes[0];
+        String mensaje = partes.length > 1 ? partes[1] : "";
+
+        if (estado.equals("OK")) {
+            System.out.println("✓ " + mensaje);
+        } else if (estado.equals("ERROR")) {
+            System.err.println("✗ " + mensaje);
+        } else {
+            System.out.println("Respuesta: " + respuestaServidor);
+        }
+    }
 }
